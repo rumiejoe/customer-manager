@@ -1,0 +1,21 @@
+mat-dialog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  width: 100%;
+  max-width: 500px;
+}
+
+.mat-dialog-actions {
+  justify-content: center;
+}
+
+.mat-dialog-container {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}

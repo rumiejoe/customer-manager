@@ -1,0 +1,44 @@
+<h2 mat-dialog-title>Customer Details</h2>
+<mat-dialog-content>
+  <form>
+    <mat-label>Name</mat-label>
+    <mat-form-field>
+      <input matInput placeholder="Name" [(ngModel)]="data.name" name="name" />
+    </mat-form-field>
+
+    <mat-label>Email</mat-label>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Email"
+        [(ngModel)]="data.email"
+        name="email"
+      />
+    </mat-form-field>
+
+    <mat-label>Phone</mat-label>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Phone"
+        [(ngModel)]="data.phone"
+        name="phone"
+      />
+    </mat-form-field>
+
+    <mat-label>Address</mat-label>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Address"
+        [(ngModel)]="data.address.street"
+        name="address"
+      />
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Close</button>
+  <button mat-button (click)="onSave()">Save</button>
+</mat-dialog-actions>

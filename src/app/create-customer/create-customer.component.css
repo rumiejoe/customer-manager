@@ -1,0 +1,34 @@
+.form-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+.example-form {
+  max-width: 500px; /* adjust the width to your liking */
+  margin: auto; /* center the form horizontally */
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* add a light gray background */
+  border-radius: 30px; /* add a slight rounded corner */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+}
+
+.example-full-width {
+  width: 100%; /* make the form fields full width */
+}
+
+mat-form-field {
+  margin-bottom: 20px; /* add some space between form fields */
+}
+
+.example-icon {
+  margin-top: 20px; /* add some space above the save button */
+}
+
+button {
+  width: 100%;
+  background-color: blue !important;
+  color: white !important;
+}
